@@ -3,7 +3,7 @@ import { navLinkClasses } from "../../utils/classNames";
 
 export default function Navbar() {
   return (
-    <div className="navbar shadow-sm bg-gray-100">
+    <div className="navbar shadow-sm bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
