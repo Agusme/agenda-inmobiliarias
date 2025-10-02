@@ -9,10 +9,10 @@ import Footer from "../components/Layout/Footer";
 export default function AppRouter() {
     return (
         <BrowserRouter>
-            <div className="min-h-screen flex flex-col">
+            <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-100 to-sky-100">
                 <Navbar />
 
-                <main className="flex-grow">
+                <main className="flex-grow my-14">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/clientes" element={<Clients />} />
