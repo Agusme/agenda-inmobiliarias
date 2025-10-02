@@ -12,7 +12,7 @@ export default function AppRouter() {
             <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-100 to-sky-100">
                 <Navbar />
 
-                <main className="flex-grow my-14">
+                <main className="flex-grow my-14 max-w-5xl mx-auto">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/clientes" element={<Clients />} />

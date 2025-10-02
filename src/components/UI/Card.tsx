@@ -14,7 +14,7 @@ export default function Card({ title, description, icon, footer, onClick, classN
         <div onClick={onClick} className={`card bg-white shadow-lg rounden-2xl p-6 hover:shadow-2xl transition cursor-pointer ${className}`}>
             <div className="flex flex-col items-center text-center">
                 {icon && <div className="mb-4">{icon}</div>}
-                <h2 className="text-xl font-bold mb-2">
+                <h2 className="text-xl font-bold mb-2 text-blue-950">
                     {title}
                 </h2>
                 {description && <p className="text-gray-500 mb-4">
