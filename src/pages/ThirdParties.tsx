@@ -6,7 +6,7 @@ import Card from "../components/UI/Card";
 export default function ThirdParties() {
   return (
     <div>
-     <div className="flex justify-between my-10">
+  <div className="grid my-4 md:flex md:items-center md:justify-between">
         <TitlePages titlePages="Propiedades Terceros" />
         <ButtonAgregar  titleButton="Agregar Propiedad" icon={<PlusIcon className="h-4 w-4" />} />
       </div>
