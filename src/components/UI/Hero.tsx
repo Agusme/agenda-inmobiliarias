@@ -9,11 +9,8 @@ export default function Hero({ onScrollToCards }: HeroProps) {
         Agenda <span className="text-primary">Inmo</span>
       </h1>
 
-      <p className="text-xl md:text-2xl font-semibold text-primary tracking-wide mb-6">
-        Decile <span className="text-blue-950">chau al cuaderno</span>, tenés todo en un solo lugar.
-      </p>
 
-      <p className="text-lg text-gray-600 max-w-2xl mb-8">
+      <p className="text-lg text-gray-600 max-w-2xl my-10">
         Gestioná clientes, propiedades y tareas de tu inmobiliaria con una plataforma moderna, 
         simple y accesible desde cualquier dispositivo.
       </p>
