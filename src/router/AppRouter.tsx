@@ -11,8 +11,7 @@ export default function AppRouter() {
         <BrowserRouter>
             <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-100 to-sky-100">
                 <Navbar />
-
-                <main className="flex-grow my-14 max-w-5xl mx-auto">
+                <main className="flex-grow my-5 w-full px-8">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/clientes" element={<Clients />} />

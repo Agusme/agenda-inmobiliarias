@@ -17,7 +17,7 @@ export default function Home() {
       <Hero onScrollToCards={handleScroll} />
 
       {/* CARDS */}
-      <div id="cards-section" className="grid md:grid-cols-3 gap-8 w-full px-6 py-12">
+      <div id="cards-section" className="grid md:grid-cols-3 gap-8 w-full px-6 py-12 items-stretch">
         <Link to="/clientes">
           <Card
             title="Clientes"
