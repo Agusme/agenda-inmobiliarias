@@ -5,6 +5,7 @@ import Clients from "../pages/Clients";
 import Properties from "../pages/Properties";
 import ThirdParties from "../pages/ThirdParties";
 import Footer from "../components/Layout/Footer";
+import Login from "../pages/Login";
 
 export default function AppRouter() {
     return (
@@ -17,6 +18,7 @@ export default function AppRouter() {
                         <Route path="/clientes" element={<Clients />} />
                         <Route path="/propiedades" element={<Properties />} />
                         <Route path="/propiedades-terceros" element={<ThirdParties />} />
+                        <Route  path="/login" element={<Login/>} />
                     </Routes>
                 </main>
                 <Footer />

@@ -34,7 +34,12 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <NavLink
+          to="/login"
+          className={({isActive})=>`font-semibold text-sm hover:text-primary hover:opacity-90 ${isActive ? 'text-primary': 'text-black' }`}
+        >
+          Iniciar sesión
+        </NavLink>
       </div>
     </div>
   )
