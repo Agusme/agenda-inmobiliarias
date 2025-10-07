@@ -2,17 +2,17 @@ import { PlusIcon, UserIcon } from "@heroicons/react/24/outline"
 import Card from "../components/UI/Card"
 import TitlePages from "../components/UI/TitlePages"
 import ButtonAgregar from "../components/UI/ButtonAgregar"
+import SearchBar from "../components/UI/SearchBar"
 
 export default function Clients() {
   return (
-    <div className="w-full ">
-     <div className="grid my-4 md:flex md:items-center md:justify-between">
-  <TitlePages titlePages="Clientes" />
+    <div >
   <ButtonAgregar
     titleButton="Agregar cliente"
     icon={<PlusIcon className="h-4 w-4" />}
   />
-</div>
+  <TitlePages titlePages="Clientes" />
+<SearchBar/>
       <div className="grid grid-cols-1 md:grid-cols-4  gap-8 ">
         <Card title="Cliente" description="Busca hasta" icon={<div className="bg-blue-100 p-4 rounded-full text-blue-600">
           <UserIcon className="h-6 w-6" />

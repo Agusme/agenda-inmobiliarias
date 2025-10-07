@@ -2,14 +2,15 @@ import { HomeIcon, PlusIcon } from "@heroicons/react/24/outline";
 import ButtonAgregar from "../components/UI/ButtonAgregar";
 import TitlePages from "../components/UI/TitlePages";
 import Card from "../components/UI/Card";
+import SearchBar from "../components/UI/SearchBar";
 
 export default function Properties() {
   return (
     <div >
-  <div className="grid my-4 md:flex md:items-center md:justify-between">
-        <TitlePages titlePages="Propiedades" />
         <ButtonAgregar titleButton="Agregar propiedad" icon={<PlusIcon className="h-4 w-4" />}  />
-      </div>
+        <TitlePages titlePages="Propiedades" />
+      <SearchBar/>
+      
       <div className="grid grid-cols-1 md:grid-cols-4  gap-8 ">
         <Card icon={<div className="p-4 rounded-full bg-green-100 text-green-600">
           <HomeIcon className="h-6 w-6" />
